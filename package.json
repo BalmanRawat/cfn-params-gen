@@ -1,0 +1,32 @@
+{
+  "name": "cfn-params-gen",
+  "version": "1.0.0",
+  "description": "Generate CloudFormation json parameter from friendly yaml based config file",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "local-install": "npm i -g && cfn-params-gen",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BalmanRawat/cfn-params-gen.git"
+  },
+  "keywords": [
+    "CloudFormation",
+    "yamltojson",
+    "cfn-params",
+    "parameters"
+  ],
+  "author": "",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/BalmanRawat/cfn-params-gen/issues"
+  },
+  "homepage": "https://github.com/BalmanRawat/cfn-params-gen#readme",
+  "dependencies": {
+    "commander": "^4.0.1",
+    "figlet": "^1.2.4",
+    "js-yaml": "^3.13.1"
+  }
+}
